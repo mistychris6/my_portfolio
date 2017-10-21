@@ -10,11 +10,11 @@ export default class extends React.Component {
           <ul>
             <li>HTML/CSS</li>
             <li>JavaScript (ES6 & JQuery)</li>
-              <ul>
+              <ul className='subList'>
                 <li>React</li>
                 <li>NodeJS</li>
                 <li>Express</li>
-              </ul>
+              </ul>   
             <li>MongoDB</li>
             <li>RESTful API</li>
             <li>Linux</li>
@@ -24,7 +24,7 @@ export default class extends React.Component {
           </ul>
         <h2>Professional Experience</h2>
           <h3>Berkadia Commercial Mortgage, Client Relations Manager  2012-Present</h3>
-            <ul>
+            <ul className='proEx'>
               <li>Responsible for portfolio management of commercial loans that exceed five billion dollars.</li>
               <li>Act as liaison between borrower, customer relations group, and production personnel.</li>
               <li>Analyze legal and loan documents in order to approve or deny borrower company changes, loan transfers, property management changes, and other loan requests.</li>
@@ -33,7 +33,7 @@ export default class extends React.Component {
               <li>Troubleshoot and resolve complex and time sensitive issues in conjunction with maintaining Shareholder expectations.</li>
             </ul>
           <h3>State of Utah, Judicial Assistant   2006-2012</h3>
-            <ul>
+            <ul className='proEx'>
               <li>Managed judicial calendar and coordinated with all parties while working with sensitive, confidential, and personal information.</li>
               <li>Personally appointed the responsibility of new personnel management, training, team compliance and continuity.</li>
               <li>Reviewed and edited legal documents in order to ensure compliance with applicable statute and Utah rules of civil procedure.</li>
@@ -42,7 +42,7 @@ export default class extends React.Component {
               <li>Communicated with counsel for opposing parties to resolve time conflicts and constraints in order to ensure fulfillment of calendar requirements.</li>
             </ul>
           <h3>John H. Harland Co., Customer Service Representative   2001-2005</h3>
-            <ul>
+            <ul className='proEx'>
               <li>Met and exceeded required company performance standards while ensuring clients’ needs were fulfilled in a timely and efficient manner.</li>
               <li>Communicated with clients and bank employees in order to ensure that logistical and aesthetic expectations were achieved on all incoming orders and requests.</li>
               <li>Discussed and resolved all customer inquiries regarding possible errors in invoicing and payment processing.</li>

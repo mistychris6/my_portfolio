@@ -3,7 +3,8 @@ import React from 'react'
 export default () => {
   return (
     <div>
-      <h1>MistySue Christiansen</h1>
+      <h1>Developer in progress...</h1>
+      
     </div>
   )
 }
