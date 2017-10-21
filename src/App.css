@@ -3,7 +3,8 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  display: flex;
+  justify-content: flex-start;
   height: 80px;
 }
 
@@ -20,6 +21,74 @@
 
 .App-intro {
   font-size: large;
+}
+
+.About-Me {
+  height: 8%;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.My-Colorful-Login {
+  height: 20%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.github {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Object-Literals {
+  height: 25%;
+  width: 40%;
+  margin-top: 20px;
+}
+
+section {
+  display: flex;
+  justify-content: flex-end;
+}
+
+a {
+  padding-right: 2%;
+  color: white;
+}
+
+body {
+  background: darkslategray;
+}
+
+.proEx {
+  list-style-type: none;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+ul {
+  color: white;
+}
+
+div {
+  margin: 0px 20px 10px 20px;
 }
 
 @keyframes App-logo-spin {
