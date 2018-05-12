@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import me from './me.JPG'
+import me from './Images/me.JPG'
 
 
 
@@ -10,12 +10,12 @@ import {
   Switch
 } from 'react-router-dom'
 
-import Home from './pages/Home'
-import Work from './pages/Work'
-import Contact from './pages/Contact'
-import About from './pages/About'
-import Projects from './pages/Projects'
-import NotFound from './pages/NotFound'
+import Home from './Views/Home'
+import Work from './Views/Work'
+import Contact from './Views/Contact'
+import About from './Views/About'
+import Projects from './Views/Projects'
+import NotFound from './Views/NotFound'
 
 
 class App extends Component {
