@@ -1,7 +1,7 @@
 import React from 'react'
-import aboutMe from '../aboutMe.PNG'
-import myColorfulLogin from '../myColorfulLogin.PNG'
-import objectLiterals from '../objectLiterals.PNG'
+import aboutMe from '../Images/aboutMe.PNG'
+import myColorfulLogin from '../Images/myColorfulLogin.PNG'
+import objectLiterals from '../Images/objectLiterals.PNG'
 
 export default () => {
   return (
